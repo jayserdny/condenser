@@ -99,6 +99,8 @@
         "tag": "标签",
         "to": "对",
         "topics": "题目",
+        "toggle_nightmode": "切换夜间模式",
+        "all_tags": "所有标签",
         "transfer": "转",
         "trending_topics": "排行榜",
         "type": "类型",
