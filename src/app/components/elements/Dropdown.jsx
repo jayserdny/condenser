@@ -8,9 +8,13 @@ export default class Dropdown extends React.Component {
         selected: React.PropTypes.string,
         children: React.PropTypes.object,
         className: React.PropTypes.string,
-        title: React.PropTypes.string,
+        title: React.PropTypes.oneOfType([
+            React.PropTypes.string,
+            React.PropTypes.object,
+        ]),
         href: React.PropTypes.string,
         onHide: React.PropTypes.func.isRequired,
+        show: React.PropTypes.bool,
     };
 
     constructor(props) {
@@ -57,12 +61,12 @@ export default class Dropdown extends React.Component {
             </a>
         );
 
-        const menu = <div className={'dropdown__content'}>{children}</div>;
+        const content = <div key='dropdown-content' className={'dropdown__content'}>{children}</div>;
         const cls =
             'dropdown' +
             (this.state.shown ? ' show' : '') +
             (className ? ` ${className}` : '') +
             (position ? ` ${position}` : '');
-        return React.createElement('div', { className: cls }, [entry, menu]);
+        return React.createElement('div', { className: cls, key: 'dropdown' }, [entry, content]);
     }
 }
