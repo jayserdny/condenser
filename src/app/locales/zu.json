@@ -211,8 +211,8 @@
         "advanced": "高级的",
         "views": {
             "zero": "没有浏览量",
-            "one": "%(count)s浏览量",
-            "other": "%(count)s个浏览量"
+            "one": "%(count)s个浏览",
+            "other": "%(count)s个浏览"
         },
         "responses": {
             "zero": "没有反应",
