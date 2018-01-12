@@ -19,7 +19,7 @@
         "clear": "清除",
         "close": "关闭",
         "collapse_or_expand": "折叠/展开",
-        "comments": "留言",
+        "comments": "评论",
         "confirm": "确认",
         "convert": "转换",
         "date": "日期",
@@ -72,7 +72,7 @@
         "remove_vote": "取消投票",
         "replied_to": "回复了 %(account)s",
         "replies": "留言",
-        "reply": "留言",
+        "reply": "回复",
         "reply_count": {
             "zero": "没有留言",
             "one": "1个回复",
@@ -100,8 +100,9 @@
         "to": "至",
         "topics": "主题",
         "toggle_nightmode": "切换夜间模式",
+
         "all_tags": "所有标签",
-        "transfer": "转让",
+        "transfer": "转账",
         "trending_topics": "热门话题",
         "type": "类型",
         "unfollow": "取消关注",
@@ -149,7 +150,7 @@
         "understand_that_APP_NAME_cannot_recover_password":
             "我知道%(APP_NAME)s无法恢复丢失的密码",
         "i_saved_password": "我安全地保存了我生成的密码",
-        "update_password": "更新密码",
+        "update_password": "修改密码",
         "confirm_password": "确认密码",
         "account_updated": "更新账号",
         "password_must_be_characters_or_more": "密码必须是%(amount)s个字母以上",
@@ -224,7 +225,7 @@
         "about": "关于",
         "explore": "探索",
         "APP_NAME_whitepaper": "%(APP_NAME)s的白皮书",
-        "buy_LIQUID_TOKEN": "够买%(LIQUID_TOKEN)s",
+        "buy_LIQUID_TOKEN": "购买%(LIQUID_TOKEN)s",
         "sell_LIQUID_TOKEN": "出售%(LIQUID_TOKEN)s",
         "currency_market": "货币市场",
         "stolen_account_recovery": "被盗账户恢复",
@@ -375,8 +376,8 @@
         },
         "followed_count": {
             "zero": "没有关注任何人",
-            "one": "1个关注",
-            "other": "%(count)s个关注"
+            "one": "关注1人",
+            "other": "关注%(count)s人"
         },
         "post_count": {
             "zero": "没有帖子",
@@ -496,7 +497,7 @@
             "可交易代币可以在任何时候发送到任何地方。%(LIQUID_TOKEN)s可以在一个被称为Power Up的过程中被转换成%(VESTING_TOKEN)s。",
         "influence_token":
             "代币的影响力可以使你对文章的赏金有更大的控制权，并可以获得审查奖励。",
-        "estimated_value": "换算成美金估值为%(LIQUID_TOKEN)s。",
+        "estimated_value": "基于美元计算，%(LIQUID_TOKEN)s的估值。",
         "non_transferable":
             "%(VESTING_TOKEN)s是不可转让的，需要3个月(13笔付款)才可换回%(LIQUID_TOKEN)s",
         "converted_VESTING_TOKEN_can_be_sent_to_yourself_but_can_not_transfer_again":
@@ -571,7 +572,7 @@
         "curation_rewards_by": "审查收入 by",
         "author_rewards_by": "作者收入 by",
         "replies_to": "回复",
-        "comments_by": "留言"
+        "comments_by": "评论"
     },
     "loginform_jsx": {
         "you_need_a_private_password_or_key":
@@ -585,7 +586,7 @@
             "由于服务器维护，我们只在只读模式下运行。很抱歉给您带来不便。",
         "login_to_vote": "登录后投票",
         "login_to_post": "登录后发帖",
-        "login_to_comment": "登录后留言",
+        "login_to_comment": "登录后评论",
         "posting": "发帖",
         "active_or_owner": "Active 或 Owner",
         "this_password_is_bound_to_your_account_owner_key":
@@ -658,16 +659,16 @@
         "this_memo_is_public": "这个备注是公开的",
         "convert_to_VESTING_TOKEN": "转换成%(VESTING_TOKEN)s",
         "balance_subject_to_3_day_withdraw_waiting_period":
-            "余额取决于3天的提款等待期",
+            "余额取决于3天的提款等待期，",
         "move_funds_to_another_account":
-            "将资金转移到另一个%(APP_NAME)s的帐户。",
+            "将资金转移给另一个%(APP_NAME)s的用户。",
         "protect_funds_by_requiring_a_3_day_withdraw_waiting_period":
             "通过设置3天的提款等待期来保护资金。",
         "withdraw_funds_after_the_required_3_day_waiting_period":
             "需要在3天的等待期后提取资金。",
         "from": "从",
         "to": "到",
-        "asset_currently_collecting": "%(asset)s目前收集%(interest)s%%利息"
+        "asset_currently_collecting": "%(asset)s目前获得%(interest)s%%利息"
     },
     "userwallet_jsx": {
         "conversion_complete_tip": "将完成在",
@@ -688,7 +689,7 @@
         "transfers_are_temporary_disabled": "转移功能暂时被禁用。",
         "history": "历史",
         "redeem_rewards": "赎回奖励(转移至余额)",
-        "buy_steem_or_steem_power": "买STEEM或STEEM Power"
+        "buy_steem_or_steem_power": "购买STEEM或STEEM Power"
     },
     "powerdown_jsx": {
         "power_down": "Power Down",
