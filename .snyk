@@ -1,0 +1,207 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@steemit/steem-js > lodash':
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@steemit/steem-js > lodash'
+    - react-foundation-components > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-foundation-components > lodash
+    - react-redux > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-redux > lodash
+    - redux > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: redux > lodash
+    - sequelize-cli > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: sequelize-cli > lodash
+    - babel-core > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > lodash
+    - babel-cli > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > lodash
+    - sass-loader > async > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: sass-loader > async > lodash
+    - webpack > async > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack > async > lodash
+    - babel-core > babel-generator > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > lodash
+    - babel-eslint > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > babel-traverse > lodash
+    - babel-plugin-transform-decorators-legacy > babel-template > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-plugin-transform-decorators-legacy > babel-template > lodash
+    - babel-cli > babel-core > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > babel-core > lodash
+    - babel-core > babel-register > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - node-sass > sass-graph > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > sass-graph > lodash
+    - sequelize-cli > umzug > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: sequelize-cli > umzug > lodash
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > babel-types > lodash
+    - babel-eslint > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > babel-traverse > babel-types > lodash
+    - node-sass > gaze > globule > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > gaze > globule > lodash
+    - babel-cli > babel-core > babel-generator > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > babel-core > babel-generator > lodash
+    - babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-decorators-legacy > babel-template >
+          babel-traverse > lodash
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > lodash
+    - babel-cli > babel-core > babel-register > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > babel-core > babel-register > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - babel-cli > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > babel-core > babel-generator > babel-types > lodash
+    - babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-decorators-legacy > babel-template >
+          babel-traverse > babel-types > lodash
+    - babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react > babel-plugin-transform-react-jsx >
+          babel-helper-builder-react-jsx > babel-types > lodash
+    - purest > request > form-data > async > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: purest > request > form-data > async > lodash
+    - twilio > request > form-data > async > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: twilio > request > form-data > async > lodash
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > babel-traverse > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > babel-traverse > lodash
+    - babel-cli > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-cli > babel-core > babel-helpers > babel-template > lodash
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-0 > babel-preset-stage-1 >
+          babel-plugin-transform-class-constructor-call > babel-template >
+          lodash
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-core > babel-helpers > babel-template > babel-traverse >
+          babel-types > lodash
+    - babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > babel-traverse > babel-types > lodash
+    - babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-cli > babel-core > babel-helpers > babel-template >
+          babel-traverse > lodash
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-0 > babel-preset-stage-1 >
+          babel-plugin-transform-class-constructor-call > babel-template >
+          babel-traverse > lodash
+    - babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-cli > babel-core > babel-helpers > babel-template >
+          babel-traverse > babel-types > lodash
+    - babel-preset-stage-0 > babel-preset-stage-1 > babel-plugin-transform-class-constructor-call > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-07-12T14:55:53.938Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-0 > babel-preset-stage-1 >
+          babel-plugin-transform-class-constructor-call > babel-template >
+          babel-traverse > babel-types > lodash
