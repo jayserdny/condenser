@@ -65,7 +65,7 @@
     "intl": "^1.2.5",
     "iso": "^5.1.0",
     "json-loader": "^0.5.7",
-    "koa": "^1.1.2",
+    "koa": "^2.16.1",
     "koa-body": "^1.4.0",
     "koa-compressor": "^1.0.3",
     "koa-conditional-get": "^1.0.3",
